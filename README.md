@@ -11,6 +11,19 @@ At any given time, each player can place a purchase for a number within a time r
 ## Running the App
 
 ### Backend:
+The backend of this project is developed using Python and Django framework. Therefore, please make sure that you have Python installed before proceeding with the setup.
+
+#### Python Installation
+1. Visit the official Python website at [python.org](https://www.python.org).
+2. Download the latest stable version of Python for your operating system.
+3. Run the installer and follow the instructions to install Python.
+4. Once the installation is complete, open a new terminal or command prompt and verify the installation by running the following command:
+   ````
+   python --version
+   ```
+This should display the installed Python version.
+
+#### Setting up the Backend Environment
 1. Activate the virtual environment:
    - For Windows: `.\backend\env\Scripts\activate`
    - For Linux: `source ./backend/env/bin/activate`
@@ -24,6 +37,7 @@ At any given time, each player can place a purchase for a number within a time r
    ````
    python manage.py runserver --noreload
    ```
+4. The server should now be running on http://localhost:8000. You can access the backend API endpoints from this URL.
 
 ### C# Client:
 1. Open the "VNVC_Jackpot/VNVC_Jackpot.sln" file using Visual Studio IDE.
@@ -32,4 +46,8 @@ At any given time, each player can place a purchase for a number within a time r
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create a pull request or submit an issue on the [GitHub repository](https://github.com/DoanMinhTruong/VNVC_Test).
+
+
+
+
 
