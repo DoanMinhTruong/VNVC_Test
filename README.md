@@ -24,20 +24,16 @@ The backend of this project is developed using Python and Django framework. Ther
 This should display the installed Python version.
 
 #### Setting up the Backend Environment
-1. Activate the virtual environment:
-   - For Windows: `.\backend\env\Scripts\activate`
-   - For Linux: `source ./backend/env/bin/activate`
-
-2. Install the required libraries:
+1. Install the required libraries:
    ````
    pip install -r ./backend/requirements.txt
    ```
 
-3. Run the local server (make sure Port 8000 is not in use):
+2. Run the local server (make sure Port 8000 is not in use):
    ````
    python manage.py runserver --noreload
    ```
-4. The server should now be running on http://localhost:8000. You can access the backend API endpoints from this URL.
+3. The server should now be running on http://localhost:8000. You can access the backend API endpoints from this URL.
 
 ### C# Client:
 1. Open the "VNVC_Jackpot/VNVC_Jackpot.sln" file using Visual Studio IDE.
